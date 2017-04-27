@@ -13,6 +13,19 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+   <scm>
+     <connection>scm:git:file:///https://github.com/Nivedha18-V/MavenRelease.git</connection>
+     <url>scm:git:file:///https://github.com/Nivedha18-V/MavenRelease.git</url>
+    <tag>MavRel-0.0.1</tag>
+  </scm>
+  
+  <distributionManagement>
+     <repository>
+        <id>MavenRelease</id>
+        <url>https://github.com/Nivedha18-V/MavenRelease.git</url>
+     </repository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
